@@ -1,0 +1,56 @@
+
+header{
+    background-image: url(slide-1.jpg);
+    height: 100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+header .headd{
+    opacity: 0.7;
+}
+#navv{
+    z-index: 1;
+}
+
+form{
+     position: absolute;
+     left: 37%;
+     top:17%;
+     background-color: #c2c2c261;
+     width: 27%;
+    padding: 4%;
+    align-items: center;
+}
+form div input{
+    width: 100%;
+    border-radius:5px;
+}
+form h1{
+   display: flex;
+   justify-content: center;
+}
+.btnn{
+    background-color: rgb(81, 171, 255);
+    color: aliceblue;
+    padding: 2%;
+}
+.error{
+    color:red;
+}
+.colorr{
+    color: #ffc107;
+}
+@media (max-width:767px){
+    form{
+        left: 15%;
+        top:17%;
+        width: 70%;
+       padding: 4%;
+   }
+   header{
+    height: 120vh;
+   }
+  
+}
